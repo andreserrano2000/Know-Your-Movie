@@ -5,4 +5,4 @@ Check it out at https://magueija.github.io/Know-Your-Movie/
 
 ![](image-readme.png)
 
-This is just a project I did for fun! :D
+This was my first project I did for fun, so there is still much to improve.
