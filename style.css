@@ -1,0 +1,129 @@
+body{
+    background-image: url(Jocker-background.jpg);
+    background-position: top center;
+    background-position-y: 5vw;
+    background-size: 200vh;
+    background-repeat: no-repeat;
+}
+
+.font-Kufam{
+    font-family: 'Kufam';
+}
+
+section header {
+    text-align: center;
+    padding: 4em 1em 1em 1em;
+}
+
+section header h2 {
+    margin-bottom: 0.25em;
+}
+
+section header h5 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+section form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+section form input[type=text] {
+    font-size: 1em;
+    margin: auto;
+    margin-right: 0;
+    padding: 10px;
+    border: 1px solid #e3224c;
+    border-right: none;
+    float: left;
+    width: 50%;
+    background: #ffffff;
+    color: #111111;
+    border-radius: 10px 0 0 10px;
+}
+
+section form #searchBtn {
+    font-size: 1em;
+    margin: auto;
+    margin-left: 0;
+    float: left;
+    width: 3.5em;
+    padding: 10px;
+    background-color: #e3224c;
+    color: #ffffff;
+    border: 1px solid #e3224c;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+section div.fastSearch{
+    text-align: center;
+    padding: 1em;    
+    margin-bottom: 2em;
+}
+
+section div.fastSearch button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5em 1em;
+    background-color: #e3224c;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: .25em .5em;
+}
+
+section form #searchBtn:hover, section div.fastSearch button:hover {
+    background-color: #c92045;
+    border-color: #c92045;
+}
+
+section div ul {
+    padding: 2em 4em;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+section div ul li {
+    display: inline;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+
+section div ul li a,
+section div ul li a:active,
+section div ul li a:visited {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section div ul li a:hover {
+    color: #606060;
+}
+
+section div ul li a img {
+    max-width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+section div ul li a label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}

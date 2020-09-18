@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Know Your Movie</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="filmeDetails_style.css">
+</head>
+
+<body>
+    <aside class="goBack">
+        <a href="index.html"><i class="fa fa-arrow-circle-left"></i> Página Inicial</a>
+    </aside>
+    <section>
+        <header class="section-header">
+            <h1 id="originalTitle"></h1>
+            <img id="tumbnail" src="noImage.jpg" alt="Imagem do Filme">
+        </header>
+        <section class="section-body">
+            <header>
+                <h2 id="title" class="d-inline-block"></h2> &nbsp;<h3 id="slogan" class="d-inline-block"></h3>
+                <br>
+                <h6 class="pd-r col-Dt">Géneros: <span id="genres"></span></h6>
+                <h6 class="pd-r col-Dt">Coleção: <span id="collection">Sem coleção</span></h6>
+                <h6 class="pd-r col-Dt">Data de Lançamento: <span id="lDate"></span></h6>
+                <h6 class="col-Dt">Aúdio: <span id="spokenLanguage"></span></h6>
+            </header>
+
+            <div class="rating">
+                <h4 id="ratingTitle" class="d-inline-block">Avaliações:</h4>
+                <div id="rating" class="d-inline-block">
+                    <ul id="ratingList"></ul>
+                </div>
+            </div>
+            
+            <h4 class="margin-top">Sinopse:</h4>
+            <p id="overview"></p>
+            
+            <div class="produtions">
+                <h4 id="produtionsTitle" class="margin-top">Uma produção de:</h4>
+                <ul id="produtions"></ul>
+            </div>    
+            <div class="trailers">
+                <h4 id="trailersTitle" class="margin-top">Trailer:</h4>
+                <ul id="trailers"></ul>
+            </div>
+            <footer id="webSite">
+                <a class="btn-website" target="_blank" href="#">Visitar Página do Filme</a>
+            </footer>
+        </section>
+    </section>
+    
+    <section class="recomendations">
+        <header>
+            <h4>Recomendações:</h4>
+        </header>
+            <ul id="recomendationsList"></ul>
+    </section>
+    
+    <aside id="backtoTop"><a class="backtoTop"><i class="fa fa-angle-double-up"></i></a></aside>
+    
+    <aside id="advice">
+        <p style="margin: 0">Caso não consigas assistir o trailer em tela cheia, desliga o Adblock que tens no teu <span style='font-style:italic;'>browser</span>. <a class="adviceOK">OK</a></p>
+    </aside>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="filmeDetails_script.js"></script>
+</body>
+
+</html>
