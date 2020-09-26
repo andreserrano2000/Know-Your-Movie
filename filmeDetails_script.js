@@ -125,6 +125,9 @@ $(document).ready(function () {
             if(movie.overview != ""){
                 $('#overview').text(movie.overview);
             }
+            else {
+                $('#overview').text('Sem informação.');
+            }
             
             if(movie.production_companies != ""){
                 let prodution = movie.production_companies;
