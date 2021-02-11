@@ -73,6 +73,7 @@ section .section-body {
     text-align: right;
     overflow-x: auto;
     white-space: nowrap;
+    color: #daa520;
 }
 
 #ratingList li{
@@ -91,6 +92,18 @@ section .section-body {
     width: 60%;
     display: inline-block;
     float: right;
+}
+
+#produtions::-webkit-scrollbar,
+#produtions::-webkit-scrollbar-track{
+    background-color: transparent !important;
+}
+
+#produtions{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 #produtions, #trailers, #ratingList {
